@@ -1,12 +1,18 @@
 import os
 
-def list_folder(path="."):
-    """Return a list of names in the given folder."""
+
+def items_folder(path="."):
     return os.listdir(path)
 
 
-if __name__ == "__main__":
-    folder = "."
-    items = list_folder(folder)
-    for item in items:
-        print(item)
+folder = input("Name of the folder you want contents of: ")
+
+for item in items_folder(folder):
+    obj = os.path.join(folder, item)
+
+    if os.path.isfile(obj):
+        if item.endswith(".txt"):
+            print(item, "- File")
+    
+    if os.path.isdir(obj):
+        print(item, "- Folder")
