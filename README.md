@@ -8,7 +8,12 @@ Start with basic filesystem automation and gradually build more capable tools as
 
 ## Current Features
 
+- Menu-based filesystem assistant
 - List the contents of a folder
+- Check whether a file or folder exists
+- Create folders
+- Find files inside a folder
+- Continue performing operations until the user chooses to exit
 
 ## Learning
 
