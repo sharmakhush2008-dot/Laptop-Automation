@@ -27,9 +27,9 @@ This project is also a way for me to understand:
 
 ### Level 1 — Filesystem Basics
 - [x] List folder contents
-- [ ] Check if a file/folder exists
-- [ ] Create folders
-- [ ] Find files
+- [x] Check if a file/folder exists
+- [x] Create folders
+- [x] Find files
 
 ### Level 2 — File Management
 - [ ] Rename files
